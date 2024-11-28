@@ -42,10 +42,6 @@ body {
     color:#fff;
 }
 
-.header__slogan {
-    display: none;
-}
-
 .main {
     background-image: url('../Resources/pexels-leonardho-1552252.jpg');
     background-size: cover;
@@ -108,6 +104,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         padding: 20px;
     }
 
@@ -122,7 +119,14 @@ body {
     .main__left-column{
         display: flex;
         width: 50vw;
-        height: 50vh;
+        height: 50%;
+        opacity: 0.50;
+    }
+}
 
+@media (min-width: 779px) {
+
+    .header__burger-menu{
+        display: none;
     }
 }

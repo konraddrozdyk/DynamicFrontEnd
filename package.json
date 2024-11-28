@@ -1,0 +1,14 @@
+{
+  "name": "dynamicfrontend",
+  "version": "1.0.0",
+  "description": "Dynamin front end application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "KD",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}

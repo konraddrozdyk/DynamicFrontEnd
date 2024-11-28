@@ -53,6 +53,8 @@ body {
 }
 
 .main {
+  background-image: url('../Resources/pexels-leonardho-1552252.jpg');
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

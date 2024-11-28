@@ -39,7 +39,7 @@ body {
 
 .header__logo {
     font-size: 2rem;
-    color: #fff;
+    color:#fff;
 }
 
 .header__slogan {
@@ -104,11 +104,25 @@ body {
         background-color: #fff;
     }
 
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
     .main__button-container{
         display: none;
     }
 
     .main__welcome-header{
         display: none;
+    }
+
+    .main__left-column{
+        display: flex;
+        width: 50vw;
+        height: 50vh;
+
     }
 }

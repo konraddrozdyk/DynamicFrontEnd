@@ -12,7 +12,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #000;
-    
     height: 100vh;
 }
 
@@ -22,8 +21,8 @@ body {
     top: 0;
     width: 100%;
     background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
-        justify-content: space-between;
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgba(d,d,d,1) 100%);
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
@@ -47,11 +46,6 @@ body {
     display: none;
 }
 
-.sticky-aside {
-    display: flex;
-    position: fixed;
-}
-
 .main {
     background-image: url('../Resources/pexels-leonardho-1552252.jpg');
     background-size: cover;
@@ -64,6 +58,7 @@ body {
 }
 
 .main__welcome-header{
+    color: #fff;
     font-size: 2rem;
     text-align: center;
 }
@@ -78,11 +73,19 @@ body {
 .main__button{
     padding: 10px;
     margin: 10px;
-    background-color: #000;
-    color: #fff;
+    background-color: #444;
+    color: #ddd;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.main__left-column{
+    display: none;
+}
+
+.main__right-column{
+    display: none;
 }
 
 @media (min-width: 480px) {
@@ -99,5 +102,13 @@ body {
         width: 30px;
         height: 3px;
         background-color: #fff;
+    }
+
+    .main__button-container{
+        display: none;
+    }
+
+    .main__welcome-header{
+        display: none;
     }
 }

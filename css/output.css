@@ -22,26 +22,15 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #444;
-  z-index: 1000;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
 
 .header__burger-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 30px;
-  height: 25px;
-  cursor: pointer;
-}
-
-.burger-menu__line {
-  width: 30px;
-  height: 3px;
-  background-color: #fff;
+  display: none;
 }
 
 .header__logo-container {
@@ -57,8 +46,6 @@ body {
 
 .header__slogan {
   display: none;
-  color: #fff;
-  font-size: 1.2rem;
 }
 
 .sticky-aside {
@@ -72,4 +59,19 @@ body {
   padding: 20px;
 }
 
+@media (min-width: 480px) {
+  .header__burger-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+  }
 
+  .burger-menu__line {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+  }
+}

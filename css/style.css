@@ -119,13 +119,33 @@ body {
         display: none;
     }
 
-    .main__left-column{
+    .main__left-column {
         display: flex;
+        flex-direction: column; /* Stack text and image vertically */
         background-color: #444;
         color: #fff;
         opacity: 0.5;
         min-width: 40%;
         height: 100%;
+        justify-content: flex-start; /* Place content at the top */
+        align-items: center; /* Center content horizontally */
+        padding: 20px;
+    }
+    
+    .left-column__text {
+        width: 100%;
+        text-align: center; /* Center the text horizontally */
+        font-size: 1.2rem;
+        margin-bottom: 20px; /* Provide spacing between text and image */
+    }
+    
+    /* Style for the image to keep aspect ratio and adjust dynamically */
+    .responsive-image {
+        width: 100%; /* Takes full width of the container */
+        height: 100%; /* Adjusts height to maintain aspect ratio */
+        max-width: 100%; /* Prevents the image from exceeding the container width */
+        max-height: 100%; /* Prevents the image from exceeding container height */
+        object-fit: contain; /* Ensures the entire image is visible without cropping */
     }
 
     .main__right-column{

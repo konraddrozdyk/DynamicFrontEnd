@@ -1,4 +1,3 @@
-/* General Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -121,40 +120,61 @@ body {
 
     .main__left-column {
         display: flex;
-        flex-direction: column; /* Stack text and image vertically */
+        flex-direction: column; 
         background-color: #444;
         color: #fff;
         opacity: 0.5;
         min-width: 40%;
         height: 100%;
-        justify-content: flex-start; /* Place content at the top */
-        align-items: center; /* Center content horizontally */
+        justify-content: space-between; 
+        align-items: center; 
         padding: 20px;
     }
     
     .left-column__text {
         width: 100%;
-        text-align: center; /* Center the text horizontally */
+        text-align: center; 
         font-size: 1.2rem;
-        margin-bottom: 20px; /* Provide spacing between text and image */
+        margin-bottom: 20px; 
     }
     
-    /* Style for the image to keep aspect ratio and adjust dynamically */
     .responsive-image {
-        width: 100%; /* Takes full width of the container */
-        height: 100%; /* Adjusts height to maintain aspect ratio */
-        max-width: 100%; /* Prevents the image from exceeding the container width */
-        max-height: 100%; /* Prevents the image from exceeding container height */
-        object-fit: contain; /* Ensures the entire image is visible without cropping */
+        width: 60%;
+        height: auto;
+        max-width: 100%; 
+        max-height: 100%; 
+        object-fit: contain; 
     }
 
-    .main__right-column{
+    .main__right-column {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-color: #444;
         color: #fff;
-        opacity: 0.5;
+        opacity: 0.9;
         min-width: 40%;
         height: 100%;
+        padding: 20px;
+    }
+
+    .right-column__button {
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: #555;
+        color: #ddd;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+        width: 70%; /* Adjust the width of the button */
+        text-align: center;
+    }
+
+    .right-column__button:hover {
+        background-color: #666;
+        color: #fff;
     }
 }
 

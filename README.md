@@ -6,11 +6,7 @@ GymBuddy is a responsive static front-end web application designed to serve as a
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
 - [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ## Features
 

@@ -244,6 +244,7 @@ body {
         padding: 10px;
         background: rgb(0, 0, 0);
         color: #fff;
+        position:sticky;
     }
 
     .navigation-bar__list{

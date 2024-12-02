@@ -25,8 +25,9 @@ GymBuddy is a responsive static front-end web application designed to serve as a
 - **Node.js & npm**: Project management and dependency handling.
 - **GitHub Actions**: Automated build and deployment pipeline.
 
-Future Enhancements
-Dynamic Data Integration: Connect to a backend to store and retrieve real workout data.
-User Authentication: Allow users to log in and save personalized workout plans.
-Progress Visualization: Add charts and graphs to display workout progress.
-Theme Customization: Enable users to switch between light and dark themes.
+## Future Enhancements
+
+- **Dynamic Data Integration**: Connect to a backend to store and retrieve real workout data.
+- **User Authentication**: Allow users to log in and save personalized workout plans.
+- **Progress Visualization**: Add charts and graphs to display workout progress.
+- **Theme Customization**: Enable users to switch between light and dark themes.

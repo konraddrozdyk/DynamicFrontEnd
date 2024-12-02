@@ -4,7 +4,8 @@
   "description": "Dynamin front end application.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "build"
   },
   "author": "KD",
   "license": "ISC",

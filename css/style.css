@@ -12,6 +12,7 @@ body {
     line-height: 1.5;
     color: #000;
     height: 100vh;
+    overflow: auto;
 }
 
 .header {
@@ -50,9 +51,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    overflow-y: auto;
     flex-grow: 1;
     padding: 20px;
+    height: 100%;
+    height: calc(100vh - 60px); /* 100% viewport height minus the header height */
 }
 
 .main__welcome-header{
@@ -84,6 +86,43 @@ body {
 
 .main__right-column{
     display: none;
+}
+
+.reported-workouts {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.reported-workouts__header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.reported-workouts__list {
+    list-style: none;
+    padding: 0;
+}
+
+.workout-item {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer__text {
+    margin: 5px 0;
+    font-size: 0.9rem;
 }
 
 @media (min-width: 580px) {

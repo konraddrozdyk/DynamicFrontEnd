@@ -2,6 +2,10 @@
 
 GymBuddy is a responsive static front-end web application designed to serve as a fitness dashboard. It provides users with easy access to features like logging workouts, tracking progress, and navigating different sections of a fitness app. The layout dynamically adjusts based on screen size, offering an optimized user experience across various devices.
 
+## Wireframe
+
+![wireframe](/Resources/wireframe.png)
+
 ## Table of Contents
 
 - [Features](#features)

@@ -24,6 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    z-index: 100;
 }
 
 .navigation-bar{
@@ -245,6 +246,7 @@ body {
         background: rgb(0, 0, 0);
         color: #fff;
         position:sticky;
+        z-index: 100;
     }
 
     .navigation-bar__list{
